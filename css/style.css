@@ -1,4 +1,7 @@
-
+.logo {
+  width: 100px;
+  height: 100px;
+}
 body {
   font-family: "Source Sans Pro", sans-serif;
   padding: 0;
