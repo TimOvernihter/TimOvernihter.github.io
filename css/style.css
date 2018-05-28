@@ -5,6 +5,7 @@ body {
   margin: 0;
   font-size: 20px;
   background: #261B19;
+  width: 120%;
 }
 
 p {
@@ -81,6 +82,7 @@ footer a {
 header,
 footer {
   padding: 10px 0;
+  width: 120%;
 }
 
 nav.main-nav ul {
