@@ -10,7 +10,7 @@
 		width: 270px;
 		clear: both;
 		margin-top: -200%;
-		margin-left: 60%;
+		margin-left: 65%;
 	}
 	.home-image2 {
 		width: 270px;
@@ -22,19 +22,23 @@
 		width: 270px;
 		clear: both;
 		margin-top: -200%;
-		margin-left: 70%;
+		margin-left: 60%;
 	}
 	.half{
 		margin-top: 100px;
 		margin-left: -50px;
 	}
 	.p_second {
-		margin-left: 50%;
+		margin-left: 55%;
+		width: 150px;
+	}
+	.p_first {
 		width: 500px;
+		margin-left: -65%;
 	}
 	.h3_second {
-		margin-left: 150px;
-		margin-top: 20px;
+		margin-left: 90%;
+		margin-top: 15%;
 	}
 	body {
 		background-color: #fff;
@@ -49,7 +53,7 @@
 		background-color: #fff;
 	}
 	.header_link {
-		margin-left: -120%;;
+		margin-left: -140%;;
 	}
 	.site__title{
 		font-size: 30px;
