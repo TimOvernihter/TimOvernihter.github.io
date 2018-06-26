@@ -49,13 +49,12 @@ header {
 	clear: both;
 }
 .continue {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #79a08d;
 	margin-left: 30px;
-	margin-bottom: 30px;
 }
 .continue__block{
-	margin-bottom: 30px;
+	margin-bottom: 45px;
 }
 .more {
 	margin-left: 320px;
@@ -68,7 +67,7 @@ header {
     height: 20px;
     margin-right: 5px;
 }
-.like, .telegram {
+.like, .telegram, .education {
     width: 20px;
     height: 20px;
     margin-right: 10px;
@@ -244,7 +243,9 @@ body {
 }
 .subcredits{
 	color: #585b64;
+	font-family: 'Lato', sans-serif;
 	margin-left: 35px;
+	font-size: 15px;
 }
 .loading-bar{
 	background-color: #e8e8e8;
@@ -297,6 +298,7 @@ body {
 }
 .subinfo__title {
 	margin-left: 30px;
+	margin-bottom: 0;
 	font-size: 20px;
 	color: #778284;
 	font-family: 'Montserrat', sans-serif;
@@ -349,4 +351,11 @@ body {
 .link__color{
 	text-decoration: none;
 	color: #fff;
+}
+.checked {
+    color: #91CCAF;
+}
+.star__rating {
+	float: right;
+	margin: 2px;
 }
