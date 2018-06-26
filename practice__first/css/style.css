@@ -1,12 +1,19 @@
+/*ALL*/
 #wrapper{
 	max-width: 1600px;
 	margin: auto;
 }
+body {
+	background-color: #dbe5e7;
+	margin: 0;
+}
+/*HEADER*/
 header {
 	background-color: #f5f5f5;
 	margin-bottom: 70px;
 	border-top: 13px solid #83837f;
 }
+/*Developer's name and occupation*/
 .data {
     float: left;
     margin-top: 35px;
@@ -21,17 +28,28 @@ header {
     margin-bottom: 10px;
     color: grey;
 }
-.social__image {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-    margin-top: 5px;
-}
 .developer__name {
     font-size: 45px;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 5px;
 }
+/*Profile image & data alignment*/
+
+.img__profile {
+	float: left;
+}
+.data {
+	float: left;
+}
+/*Social networks*/
+
+.social__image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+/*Developer's image*/
 .profile {
 	width: 225px;
 	height: 225px;
@@ -39,48 +57,83 @@ header {
 	margin-left: 85px;
 	padding-bottom: 30px;
 }
+/*Main Section*/
 .content {
 	margin-left: 85px;
 }
+/*Main content text properties*/
+.content__subtext {
+    margin-top: 5px;
+    margin-left: 200px;
+    font-size: 18px;
+    color: #778284;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+/*Sidebar*/
 .sidebar__block {
 	background-color: #fff;
 }
 .clearfix {
 	clear: both;
 }
+/*"Read more" button*/
 .continue {
 	text-decoration: none;
 	color: #79a08d;
-	margin-left: 30px;
+	margin-left: 35px;
 }
+/*"Read more"
+
+ button's alignment*/
 .continue__block{
 	margin-bottom: 45px;
 }
+/*"Find out more information" im main section*/
 .more {
 	margin-left: 320px;
 }
+/*Second button*/
 .more__second {
 	margin-left: 40px;
 }
+.more__button{
+    background-color: #499dcb;
+    width: 250px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 19px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 100px;
+    margin-top: 10px;
+   	margin-bottom: 30px;
+}
+/*Continue reading favicon*/
 .continue__image {
 	width: 20px;
     height: 20px;
     margin-right: 5px;
 }
+/*Icons*/
 .like, .telegram, .education {
     width: 20px;
     height: 20px;
     margin-right: 10px;
     margin-bottom: -4px;
 }
+/*header contact button*/
 .contact__button {
     float: none;
     margin-left: 350px;
-    margin-top: 10px;
+    margin-top: 30px;
     background-color: #499dcb;
     width: 230px;
     margin-bottom: 115px;
 }
+/*Main content's contact button*/
 .contact__button__first {
     float: right;
     font-size: 20px;
@@ -89,6 +142,7 @@ header {
     margin-right: 90px;
     width: 185px;
 }
+/*Common properties of contact buttons*/
 .contact__button__first, .contact__button {
 	padding-bottom: 10px;
 	padding-top: 10px;
@@ -99,6 +153,7 @@ header {
 	font-weight: bold;
 	border: none;
 }
+/*Quote characteristics*/
 .quote:before {
 	content: "\201C";
 	font-size: 50PX;
@@ -109,67 +164,65 @@ header {
     border-left: 5px solid #91CCAF;
     padding-left: 35px;
 }
+/*Latest project's image*/
 .image-project {
     width: 260px;
     margin-left: 40px;
     height: 200px;
     margin-right: 25px;
 }
-.img__profile {
-	float: left;
-}
-.data {
-	float: left;
-}
-body {
-	background-color: #dbe5e7;
-	margin: 0;
-}
+/*SIDEBAR*/
 .sidebar {
 	float: right;
 	width: 430px;
 	margin-right: 110px;
 }
-.content__subtext {
-    margin-top: 5px;
-    margin-left: 200px;
-    font-size: 20px;
-    color: #778284;
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
-}
+/*Main applications' properties*/
 .apps {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-top: 40px;
-	margin-bottom: 40px;
+	width: 850px;
 }
+/*Recent project preview*/
 .big_image {
     margin-left: 40px;
     width: 850px;
     margin-bottom: 20px;
 }
+/*Main text*/
 .content__text {
-	margin-left: 40px;
+	margin-left: 35px;
 	margin-bottom: 15px;
 	width: 830px;
 	color: #000;
 	font-family: 'Lato', sans-serif;
 	font-size: 19px;
-	line-height: 1.5;
+	line-height: 1.4;
 }
+/*Padding from the last passage to the contact button*/
 .last{
 	padding-bottom: 30px;
 }
-.content__subtitle {
-    margin-left: 325px;
-    margin-top: -10px;
-    font-size: 25px;
+.kickstarter__subtitle {
+	margin-left: 325px;
+    margin-top: 10px;
+    font-size: 26px;
     font-weight: bold;
     margin-bottom: 0;
     color: #778284;
     font-family: 'Montserrat', sans-serif;
 }
+.content__subtitle {
+    margin-left: 325px;
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #778284;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Sidebar's part*/
 .sidebar__block {
 	width: 440px;
 	padding-bottom: 10px;
@@ -177,6 +230,11 @@ body {
 	padding-left: 5px;
 	border-radius: 4px;
 }
+/*Padding from the last passage in sidebar to the "continue" button*/
+.sidebar__text-last {
+	padding-bottom: 10px;
+}
+/*Sidebar text properties*/
 .sidebar__text, .sidebar__text-last {
 	color: #585b64;
 	width: 355px;
@@ -185,42 +243,37 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-size: 19px;
 }
+/*Links of the websites in SIDEBAR section*/
 .website-link {
 	text-decoration: none;
 	color: #6a9782;
 }
-.sidebar__text-last {
-	padding-bottom: 10px;
-}
+/*Main's part*/
 .content__block {
 	width: 930px;
 	float: left;
 	border-radius: 4px;
+	background-color: #ffffff;
+	margin-bottom: 35px;
 }
+/*Favicons of websites in SIDEBAR TOP section*/
 .top__img{
 	width: 20px;
 	height: 20px;
 	margin-right: 10px;
 }
+/*Padding from links in SIDEBAR section*/
 .links{
 	padding-top: 45px;
 }
+/*Author's music preferences*/
 .music{
 	width: 20px;
 	height: 20px;
 	margin-right: 10px;
 	margin-left: 35px;
 }
-.footer {
-	clear: both;
-	float: none;
-	background-color: #33383c;
-	padding-bottom: 20px;
-	padding-top: 20px;
-	text-align: center;
-	color: #fff;
-	font-size: 20px;
-}
+/*Main content's titles*/
 .content__title {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
@@ -231,6 +284,7 @@ body {
 	padding-top:10px;
 
 }
+/*Sidebar's titles*/
 .sidebar__title {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
@@ -241,12 +295,14 @@ body {
 	padding-top:45px;
 
 }
+/*Quote author*/
 .subcredits{
 	color: #585b64;
 	font-family: 'Lato', sans-serif;
 	margin-left: 35px;
 	font-size: 15px;
 }
+/*Unloaded progress bar's properties*/
 .loading-bar{
 	background-color: #e8e8e8;
 	height: 20px;
@@ -255,32 +311,35 @@ body {
 	margin-bottom: 40px;
 	margin-left: 30px;
 }
+/*Loaded progress bar's properties*/
 .amount {
 	height: 20px;
 	background-color: #66cc8d;
 	margin-top: 7px;
 	margin-bottom: 40px;
 }
+/*First progress amount*/
 .first{
 	width: 90%;
 }
+/*Second progress amount*/
 .second{
 	width: 90%;
 }
+/*Third progress amount*/
 .third{
 	width: 90%;
 }
+/*Fourth progress amount*/
 .fourth{
 	width: 80%;
 }
+/*Name of the progress name*/
 .skills__assesment {
 	float: right;
 	margin-right: 40px;
 	color: #d8d8d8;
 	font-size: 18px;
-}
-.apps {
-	width: 850px;
 }
 .image-project {
 	float: left;
@@ -288,10 +347,6 @@ body {
     margin-left: 40px;
     height: 200px;
     margin-right: 25px;
-}
-.content__block {
-	background-color: #ffffff;
-	margin-bottom: 35px;
 }
 .skills{
 	margin-top: 30px;
@@ -308,16 +363,25 @@ body {
 	font-size: 18px;
 	font-weight: 600;
 	color: #778284;
+	margin-left: 35px;
+}
+.music-names {
+	font-style: normal;
+	font-size: 18px;
+	font-weight: 600;
+	color: #778284;
 }
 .testimonial-link{
 	text-decoration: none;
 	color: #778284;
 }
+/*Icons in "Conference" section*/
 .calendar{
 	width: 20px;
 	height: 20px;
 	margin-right: 5px;
 }
+/*Open source status in "projects" section*/
 .source {
 	margin-left: 10px;
 	width: 150px;
@@ -330,32 +394,37 @@ body {
 	font-weight: bold;
 	border: none;
 }
-.more__button{
-    background-color: #499dcb;
-    width: 250px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 19px;
-    border-radius: 5px;
-    border: none;
-    margin-left: 100px;
-    margin-top: 10px;
-   	margin-bottom: 30px;
-}
 .additional__info{
 	font-size: 19px;
 	font-weight: 100;
 }
+/*Color of links*/
 .link__color{
 	text-decoration: none;
 	color: #fff;
 }
+/*"Star Rating"*/
 .checked {
     color: #91CCAF;
 }
 .star__rating {
 	float: right;
 	margin: 2px;
+}
+.fa-heart {
+    color: #fb866a;
+}
+/*Author in "FOOTER"*/
+.author {
+	color: #fff;
+}
+.footer {
+	clear: both;
+	float: none;
+	background-color: #33383c;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
 }
