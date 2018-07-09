@@ -1,7 +1,12 @@
 /*ALL*/
+* {
+    margin: 0;
+    padding: 0;
+}
 #wrapper{
 	max-width: 1280px;
 	margin: auto;
+    display: flex;
 }
 body {
 	background-color: #dbe5e7;
@@ -9,6 +14,7 @@ body {
 }
 /*HEADER*/
 header {
+    width: 100%;
 	background-color: #f5f5f5;
 	margin-bottom: 60px;
 	border-top: 10px solid #83837f;
@@ -67,7 +73,6 @@ header {
 /*Sidebar*/
 .sidebar__block {
 	background-color: #fff;
-	width: 300px;
 	margin-bottom: 23px;
 	padding: 30px 30px 7px 30px;
 	border-radius: 3px;
@@ -167,9 +172,6 @@ header {
 }
 /*SIDEBAR*/
 .sidebar {
-    float: right;
-    width: 360px;
-    margin-right: 70px;
 }
 blockquote {
 	    margin-left: 0;
@@ -226,13 +228,8 @@ blockquote {
     color: #778284;
     font-family: 'Montserrat', sans-serif;
 }
-/*Sidebar's part*/
-/*Padding from the last passage in sidebar to the "continue" button*/
-.sidebar__text-last {
-	padding-bottom: 8px;
-}
 /*Sidebar text properties*/
-.sidebar__text, .sidebar__text-last {
+.sidebar__text {
     color: #585b64;
     width: 285px;
     margin-top: 0;
@@ -247,14 +244,14 @@ blockquote {
 	color: #6a9782;
 }
 /*Main's part*/
+.content {
+    margin-right: 2%;
+}
 .content__block {
-	width: 690px;
-	float: left;
 	padding: 30px;
 	border-radius: 4px;
 	background-color: #ffffff;
 	margin-bottom: 30px;
-	margin-left: 70px;
 }
 /*Favicons of websites in SIDEBAR TOP section*/
 .top__img{
@@ -280,7 +277,7 @@ blockquote {
 /*Sidebar's titles*/
 .sidebar__title {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 24px;
+	font-size: 23.5px;
 	margin-bottom: 28px;
 	margin-top: 0;
 	color: #585b64;
@@ -359,7 +356,7 @@ blockquote {
     color: #000;
     margin-top: 13px;
     font-family: 'Lato', sans-serif;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 1.45;
     margin-bottom: 35px;
 }
@@ -397,7 +394,7 @@ blockquote {
 }
 .music__names {
     font-style: normal;
-    font-size: 20px;
+    font-size: 17px;
     color: #778284;
     margin-bottom: 8px;
 }
@@ -425,7 +422,7 @@ blockquote {
 	border: none;
 }
 .additional__info{
-	font-size: 21px;
+	font-size: 16px;
 	font-family: Arial;
 	font-weight: 100;
 }
@@ -441,6 +438,7 @@ blockquote {
 .star__rating {
 	margin: 1px;
 }
+/*Heart in the content*/
 .fa-heart {
     color: #fb866a;
 }
@@ -461,13 +459,4 @@ blockquote {
 .projects__more{
 	margin-top: 0;
 	margin-bottom: 0;
-}
-.github__text {
-	margin-bottom: 40px;
-	width: 690px;
-	color: #000;
-	margin-top: 13px;
-	font-family: 'Lato', sans-serif;
-	font-size: 19px;
-	line-height: 1.45;
 }
