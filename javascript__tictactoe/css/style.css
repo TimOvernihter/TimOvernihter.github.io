@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	max-width: 1280px;
+	margin-top: 25%;
+	margin-left: 33.3333%;
+	margin-right: 33.8%;
+}
+button {
+	font-size: 25px;
+	width: 100px;
+	height: 50px;
+	vertical-align: text-top;
+	background-color: #FFFF00;
+	border: none;
+	margin-bottom: 3px;
+	font-weight: bold;
+}
+.coloumn {
+	margin-top: 0;
+}
+#summary {
+	color: orange;
+	font-size: 25px;
+	text-align: center;
+}
