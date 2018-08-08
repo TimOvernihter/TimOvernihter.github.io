@@ -5,7 +5,7 @@ body {
   margin: 0;
   font-size: 20px;
   background: #261B19;
-  overflow-x: none;
+  overflow-x: auto;
 }
 
 p {
