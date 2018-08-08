@@ -81,8 +81,10 @@ header {
 }
 .header__video {
 	display: inline-block;
-	margin-left: 70px;
+	margin-left: 65px;
 	margin-top: 10px;
+	width: 420px;
+
 	border: none;
 	-webkit-box-shadow: -2px 0px 164px 0px #312f30;
 	-moz-box-shadow: -2px 0px 164px 0px #312f30;
@@ -195,7 +197,7 @@ header {
     margin-bottom: 30px;
 }
 .projects__image {
-	width: 225px; 
+	width: 220px; 
 	height: 220px;
 	display: inline-block;
 	margin-left: 10px;
@@ -341,7 +343,7 @@ header {
 }
 .contact {
 	background-color: #fff;
-	padding-left: 120px;
+	padding-left: 5%;
 	padding-top: 75px;
 	padding-bottom: 40px;
 }
@@ -391,11 +393,13 @@ header {
 }
 .contact__info {
 	background-color: #2d2d2d;
-	width: 220px;
+	width: 16%;
 	padding-left: 60px;
 	padding-right: 140px;
 	padding-top: 60px;
 	padding-bottom: 130px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .contact__info__title {
 	color: #fff;
