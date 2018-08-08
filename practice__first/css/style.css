@@ -4,17 +4,17 @@
     padding: 0;
 }
 #wrapper{
-	max-width: 1280px;
+	width: 1280px;
 	margin: auto;
     display: flex;
 }
 body {
 	background-color: #dbe5e7;
-	margin: 0;
+	min-width: 1280px;
 }
 /*HEADER*/
 header {
-    width: 100%;
+
 	background-color: #f5f5f5;
 	margin-bottom: 60px;
 	border-top: 10px solid #83837f;
@@ -91,7 +91,7 @@ header {
 	margin-top: 0;
 }
 .fa-external-link {
-	margin-right: 4px;
+	margin-right: 6.5%;
 	margin-top: 4px;
 }
 /*"Read more"
