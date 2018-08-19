@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="./js/script.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4 class="site__title">Timovernihter Bootstrap</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active__item"><a class="nav__link" href="#">Blog</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Archieve</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Works</a></li>
+        <li class="nav__item last"><a class="nav__link" href="#">Science</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+      <div class="countdown">
+      		<h5 class="people__info">Over <span class="number-people">1000</span> people have joined!</h5>
+          <blockquote class="blockquote blockquote-margin"><p class="blockquote-properties">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p></blockquote>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><code class="recent__posts">RECENT POSTS</code></h4>
+      <hr>
+      <h2 class="text-title">Title of the blog</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Posted by <a href="#">ME</a>, Sep 27, 2015.</h5>
+      <h5><span class="label label-danger">Food</span> <span class="label label-primary">Ipsum</span></h5><br>
+      <p>Food is my passion. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <br><br>
+      <h2 class="text-title">This is a post</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Posted by <a href="#">ME</a>, Sep 27, 2015.</h5>
+      <h5><span class="label label-warning">Lorem</span></h5><br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <hr>
+
+      <h4 class="leave__comment">Leave a Comment:</h4>
+      <span id="symbols__left">500</span><span class="comment__left"> Symbols left: </span>
+      <form class="form">
+        <div class="form-group">
+          <textarea class="form-control number-symbols" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br><br>
+      <p><span class="badge">2</span> Comments:</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="./images/1.png" class="img-circle image-align" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Anja <small><span class="small-bottom">Posted on the Sep 23, 2017, 7:56 PM</span></small></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="./images/1.png" class="img-circle image-align" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>John Row <small><span class="small-bottom">Posted on the May 21, 2012, 12:00 AM</span></small></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <br>
+          <p><span class="badge">1</span> Comment:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="./images/1.png" class="img-circle image-align last-image-align" alt="Avatar">
+            </div>
+            <div class="col-xs-10 comment-comment">
+              <h4>Unknown <small><span class="small-bottom">Sep 12, 2018, 3:22 AM</span></small></h4>
+              <p>Me too! WOW!</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
