@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>What is FLEX</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<div id="wrapper">
+	<body>
+		<header class="header">
+			<div class="darkblock"></div>
+			<div class="darkerblock"></div>
+			<div class="darkgreyblock"></div>
+			<div class="lightgreyblock"></div>
+			<div class="lighterblock"></div>
+			<h1 class="title-top"> FLEX IN CSS </h1>
+			<div class="lighterblock"></div>
+			<div class="lightgreyblock"></div>
+			<div class="darkgreyblock"></div>
+			<div class="darkerblock"></div>
+			<div class="darkblock"></div>
+		</header>
+		<h1 class="title"> JUSTIFY-CONTENT </h1>
+		<div class="example">
+			<h1 class="name">THIS IS WHAT <i>FLEX-START</i> IS</h1>
+			<div class="container flexstart">
+				<div class="block red"><p class="text">1</p></div>
+				<div class="block green"><p class="text">2</p></div>
+				<div class="block blue"><p class="text">3</p></div>
+			</div>
+			<div class="code-container">
+				<h3>Code</h3>
+				<h4><i>Container Properties:</i></h4>
+				<code>display: flex;<br> flex-direction: row;<br>	justify-content: flex-start;<br></code>
+			</div>
+		</div>
+		<div class="example">
+			<h1 class="name">THIS IS WHAT <i>FLEX-END</i> IS</h1>
+			<div class="container flexend">
+				<div class="block red"><p class="text">1</p></div>
+				<div class="block green"><p class="text">2</p></div>
+				<div class="block blue"><p class="text">3</p></div>
+			</div>
+			<div class="code-container">
+				<h3>Code</h3>
+				<h4><i>Container Properties:</i></h4>
+				<code>display: flex;<br> flex-direction: row;<br>	justify-content: flex-end;<br></code>
+			</div>
+		</div>
+		<div class="example">
+			<h1 class="name">THIS IS WHAT <i>CENTER</i> IS</h1>
+			<div class="container flexcenter">
+				<div class="block red"><p class="text">1</p></div>
+				<div class="block green"><p class="text">2</p></div>
+				<div class="block blue"><p class="text">3</p></div>
+			</div>
+			<div class="code-container">
+				<h3>Code</h3>
+				<h4><i>Container Properties:</i></h4>
+				<code>display: flex;<br> flex-direction: row;<br>	justify-content: center;<br></code>
+			</div>
+		</div>
+		<div class="example">
+			<h1 class="name">THIS IS WHAT <i>SPACE-BETWEEN</i> IS</h1>
+			<div class="container flex-space-between">
+				<div class="block red"><p class="text">1</p></div>
+				<div class="block green"><p class="text">2</p></div>
+				<div class="block blue"><p class="text">3</p></div>
+			</div>
+			<div class="code-container">
+				<h3>Code</h3>
+				<h4><i>Container Properties:</i></h4>
+				<code>display: flex;<br> flex-direction: row;<br>	justify-content: space-between;<br></code>
+			</div>
+		</div>
+		<div class="example last">
+			<h1 class="name">THIS IS WHAT <i>SPACE-AROUND</i> IS</h1>
+			<div class="container flex-space-around">
+				<div class="block red"><p class="text">1</p></div>
+				<div class="block green"><p class="text">2</p></div>
+				<div class="block blue"><p class="text">3</p></div>
+			</div>
+			<div class="code-container">
+				<h3>Code</h3>
+				<h4><i>Container Properties:</i></h4>
+				<code>display: flex;<br> flex-direction: row;<br>	justify-content: space-around;<br></code>
+			</div>
+		</div>
+		<h1 class="title"> ALIGN ITEMS </h1>
+		<div class="example">
+			<h1 class="name">THIS IS WHAT <I>FLEX-START</I> IS</h1>
+			<div class="container flex-start-align">
+				<div class="block red"><p class="text">1</p></div>
+				<div class="block green"><p class="text">2</p></div>
+				<div class="block blue"><p class="text">3</p></div>
+			</div>
+			<div class="code-container">
+				<h3>Code</h3>
+				<h4><i>Container Properties:</i></h4>
+				<code>display: flex;<br> flex-direction: column;<br>	align-items: flex-start;<br></code>
+			</div>
+		</div>
+		<div class="example">
+			<h1 class="name">THIS IS WHAT <I>FLEX-END</I> IS</h1>
+			<div class="container flex-end-align">
+				<div class="block red"><p class="text">1</p></div>
+				<div class="block green"><p class="text">2</p></div>
+				<div class="block blue"><p class="text">3</p></div>
+			</div>
+			<div class="code-container">
+				<h3>Code</h3>
+				<h4><i>Container Properties:</i></h4>
+				<code>display: flex;<br> flex-direction: column;<br>	align-items: flex-end;<br></code>
+			</div>
+		</div>
+		<div class="example">
+			<h1 class="name">THIS IS WHAT <I>CENTER</I> IS</h1>
+			<div class="container flex-center-align">
+				<div class="block red"><p class="text">1</p></div>
+				<div class="block green"><p class="text">2</p></div>
+				<div class="block blue"><p class="text">3</p></div>
+			</div>
+			<div class="code-container">
+				<h3>Code</h3>
+				<h4><i>Container Properties:</i></h4>
+				<code>display: flex;<br> flex-direction: column;<br>	align-items: center;<br></code>
+			</div>
+		</div>
+	</body>
+	<footer>Made by <a class="footer-link" href="timovernihter.github.io">Artem Nochovkin</a>, 2018</footer>
+</div>
+</html>
