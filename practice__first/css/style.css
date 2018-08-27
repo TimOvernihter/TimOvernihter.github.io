@@ -7,7 +7,7 @@
 	width: 1280px;
 	margin: auto;
     display: flex;
-	overflow: auto;
+    overflow:auto;
 }
 body {
 	background-color: #dbe5e7;
@@ -92,7 +92,7 @@ header {
 	margin-top: 0;
 }
 .fa-external-link {
-	margin-right: 6.5%;
+	margin-right: 5px;
 	margin-top: 4px;
 }
 /*"Read more"
@@ -114,6 +114,7 @@ header {
     border: none;
     margin-bottom: 8px;
    	margin-top: 16px;
+    color: #fff;
 }
 /*Continue reading favicon*/
 .continue__image {
@@ -130,11 +131,12 @@ header {
 }
 /*header contact button*/
 .contact__button {
-    margin-top: 25px;
     background-color: #499dcb;
-    width: 190px;
-    margin-left: 250px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 30%;
     margin-bottom: 95px;
+    font-family: Arial;
 }
 /*Main content's contact button*/
 .contact__button__first {
@@ -144,6 +146,7 @@ header {
     margin-top: 95px;
     margin-right: 75px;
     width: 150px;
+    color: #fff;
 }
 /*Common properties of contact buttons*/
 .contact__button__first, .contact__button {
@@ -197,7 +200,7 @@ blockquote {
 	color: #000;
 	margin-top: 10.5px;
 	font-family: 'Lato', sans-serif;
-	font-size: 15.5px;
+	font-size: 1em;
 	line-height: 1.45;
 }
 .projects {
@@ -207,7 +210,7 @@ blockquote {
     width: 670px;
     color: #000;
     font-family: 'Lato', sans-serif;
-    font-size: 15px;
+    font-size: 1em;
     line-height: 1.45;
     margin-top: 8px;
     margin-bottom: 10px;
@@ -237,7 +240,7 @@ blockquote {
     margin-bottom: 15px;
     line-height: 1.45;
     font-family: 'Lato', sans-serif;
-    font-size: 15.5px;
+    font-size: 1.5em;
 }
 /*Links of the websites in SIDEBAR section*/
 .website-link {
@@ -447,7 +450,7 @@ blockquote {
 .author {
 	color: #fff;
 }
-.footer {
+.bottom__footer {
 	clear: both;
 	float: none;
 	background-color: #33383c;
@@ -460,4 +463,11 @@ blockquote {
 .projects__more{
 	margin-top: 0;
 	margin-bottom: 0;
+}
+.last-margin {
+   margin-bottom: 10px;
+}
+.credits__footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
