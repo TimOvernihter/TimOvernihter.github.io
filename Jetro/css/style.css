@@ -1,0 +1,120 @@
+body {
+	font-family: 'BebasNeueRegular'; 
+   font-weight: normal; 
+   font-style: normal;
+   background-image: url(../jpg/bg.jpg);
+   background-size: 100%;
+    background-repeat: no-repeat;
+}
+.navigation {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 1%;
+}
+.menu {
+	   margin-left: 14%;
+   margin-right: 14%;
+}
+.nav {
+	margin-top: 1.5%;
+}
+.nav__item {
+	font-size: 20px;
+	color: #bababa;
+}
+.active-link {
+	color: #E8663C;
+	font-size: 20px;
+	font-weight: bold;
+}
+.logo-dark {
+	color: #e9613b;
+}
+.logo-light {
+	color: #f1ad9a;
+}
+.color-toggle {
+	background-color: #E8663C;
+}
+.icon-bar {
+	background-color: #fff;
+}
+.navbar-brand {
+	font-size: 3em;
+	margin-top: 15%;
+	letter-spacing: 2px;
+}
+@media only screen and (max-width: 797px) {
+	.nav__item {
+	font-size: 18px;
+	}
+}
+.clearfix {
+	clear: both;
+}
+#myNavbar {
+	float: none;
+}
+.carousel{
+	margin-left: 16.5%;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-brand {
+	margin-top: 0%;
+	}
+	.carousel{
+	margin-right: 16%;
+}
+}
+.slide-image {
+	height: 70%;
+	width: 100%;
+}
+.carousel-caption {
+	opacity: 0.7;
+	background-color: #E8663C;
+	width: 40%;
+	height: 31%;
+	padding: 0;
+	margin-bottom: 13px;
+}
+.slide-text {
+	font-weight: 100;
+	color: #fff;
+	font-family: 'Arial';
+}
+.options {
+	margin-left: 19%;
+}
+@media only screen and (max-width: 1199px) {
+.options {
+	margin-left: 8%;
+}
+.last-option  {
+	margin-left: 23%;
+}
+}
+@media only screen and (max-width: 767px) {
+.options {
+	margin-left: 28%;
+	width: 50%;
+}
+.last-option {
+	margin-left: 0;
+	width: 100%;
+}
+}
+.icon-settings{
+	margin-top: 5px;
+	float: left;
+}
+.option-title {
+	margin-top: 2%;
+	color: #E8663C;
+	font-size: 20px;
+	letter-spacing: 1px;
+	float: right;
+}
+.textst{
+	padding-top: 40px;
+}
