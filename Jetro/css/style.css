@@ -5,6 +5,7 @@ body {
    background-image: url(../jpg/bg.jpg);
    background-size: 100%;
     background-repeat: no-repeat;
+    height: auto;
 }
 .navigation {
 	display: flex;
@@ -21,6 +22,7 @@ body {
 .nav__item {
 	font-size: 20px;
 	color: #bababa;
+	display: inline;
 }
 .active-link {
 	color: #E8663C;
@@ -57,6 +59,7 @@ body {
 }
 .carousel{
 	margin-left: 16.5%;
+	height: 130%;
 }
 @media only screen and (max-width: 767px) {
 	.navbar-brand {
@@ -73,8 +76,8 @@ body {
 .carousel-caption {
 	opacity: 0.7;
 	background-color: #E8663C;
-	width: 40%;
-	height: 31%;
+	width: 24em;
+	height: 8em;
 	padding: 0;
 	margin-bottom: 13px;
 }
@@ -84,37 +87,71 @@ body {
 	font-family: 'Arial';
 }
 .options {
-	margin-left: 19%;
+	margin-left: 16%;
+	margin-bottom: 7%;
 }
-@media only screen and (max-width: 1199px) {
-.options {
-	margin-left: 8%;
-}
-.last-option  {
-	margin-left: 23%;
-}
+.block-option {
+	margin-top: 6%;
+	margin-right: 2%;
+	margin-bottom: 35px;
 }
 @media only screen and (max-width: 767px) {
-.options {
-	margin-left: 28%;
-	width: 50%;
-}
-.last-option {
-	margin-left: 0;
-	width: 100%;
-}
-}
-.icon-settings{
-	margin-top: 5px;
-	float: left;
+	.block-option {
+	width: 80%;
+	}
 }
 .option-title {
-	margin-top: 2%;
+	font-size: 1.7em;
+	margin-bottom: 20px;
 	color: #E8663C;
-	font-size: 20px;
-	letter-spacing: 1px;
-	float: right;
 }
-.textst{
-	padding-top: 40px;
+.option-text {
+	font-weight: 100;
+	color: #000;
+	font-family: 'Arial';
+	font-size: 12px;
+}
+.icon-set {
+	float: left;
+	margin-top: -15px;
+	margin-right: 20px;
+	color: #E8663C;
+}
+.more__button {
+	padding: 5px 15px 5px 15px;
+	background-color: #E8663C;
+	border: none;
+	color: #fff;
+	font-size: 17px;
+	float: left;
+	margin-top: 6%;
+	cursor: pointer;
+}
+.clearfix {
+	clear: both;
+}
+.works-title{
+	float: left;
+	margin-left: 18%;
+	margin-top: -6.5%;
+}
+@media only screen and (max-width: 679px) {
+	.carousel{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 4%;
+}
+}
+@media only screen and (max-width: 474px) {
+.carousel-caption {
+	width: 20em;
+	height: 10em;
+	padding: 0;
+	margin-bottom: 13px;
+	margin-left: -5%;
+	font-size: 11px;
+}
+.carousel-title{
+	font-size: 16px;
+}
 }
