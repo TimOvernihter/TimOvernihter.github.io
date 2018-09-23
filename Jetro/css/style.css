@@ -95,10 +95,23 @@ body {
 	margin-right: 2%;
 	margin-bottom: 35px;
 }
+@media only screen and (max-width: 991px) {
+	.options {
+	margin-left: 20%;
+}
+}
 @media only screen and (max-width: 767px) {
 	.block-option {
 	width: 80%;
 	}
+}
+@media only screen and (max-width: 500px) {
+	.options {
+	margin-top: 5%;
+}
+.options {
+	margin-left: 15%;
+}
 }
 .option-title {
 	font-size: 1.7em;
@@ -143,15 +156,25 @@ body {
 }
 }
 @media only screen and (max-width: 474px) {
-.carousel-caption {
-	width: 20em;
-	height: 10em;
-	padding: 0;
-	margin-bottom: 13px;
-	margin-left: -5%;
-	font-size: 11px;
+	.carousel-caption {
+		width: 20em;
+		height: 10em;
+		padding: 0;
+		margin-bottom: 13px;
+		margin-left: -5%;
+		font-size: 11px;
+	}
+	.carousel-title{
+		font-size: 16px;
+	}
 }
-.carousel-title{
-	font-size: 16px;
+.products {
+	margin-left: 15.5%;
 }
+.product-image {
+	width: 80%;
+	height: 100%;
+}
+.product {
+	margin-right: -5%;
 }
