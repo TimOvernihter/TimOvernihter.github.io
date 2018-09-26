@@ -1,3 +1,10 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	overflow-x: hidden;
+}
 body {
 	font-family: 'BebasNeueRegular'; 
    font-weight: normal; 
@@ -7,6 +14,12 @@ body {
     background-repeat: no-repeat;
     height: auto;
 	overflow-x: hidden;
+}
+@media only screen and (min-width: 1440px) {
+	body {
+		 background-image: none;
+		 width: 100%;
+	}
 }
 .navigation {
 	display: flex;
@@ -202,4 +215,17 @@ body {
 	.works-title{
 	margin-left: 20%;
 }
+}
+.footer-title {
+	font-size: 1.7em;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.footer-blocks{
+	margin-left: 15.5%;
+	margin-right: 15.5%;
+	background-color: #E8663C;
+}
+.colour-block {
+	background-color: #f3b29e;
 }
