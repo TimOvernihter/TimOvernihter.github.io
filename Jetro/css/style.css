@@ -147,7 +147,7 @@ body {
 .works-title{
 	float: left;
 	margin-left: 18%;
-	margin-top: -6.5%;
+	margin-top: -7%;
 }
 @media only screen and (max-width: 679px) {
 	.carousel{
@@ -171,11 +171,35 @@ body {
 }
 .products {
 	margin-left: 15.5%;
+	margin-top: -3%;
 }
 .product-image {
 	width: 80%;
 	height: 100%;
+	border: 2px dashed black;
 }
 .product {
 	margin-right: -5%;
+}
+@media only screen and (max-width: 991px) {
+	.products {
+	margin-left: 18%;
+	margin-top: 0;
+}
+.clearfix-bonus {
+	clear: both;
+}
+}
+.product-title {
+	font-size: 1.5em;
+	color: #bababa;
+}
+.product-date {
+	color: #E8663C;
+	font-size: 1.1em;
+}
+@media only screen and (max-width: 1000px) {
+	.works-title{
+	margin-left: 20%;
+}
 }
