@@ -199,6 +199,11 @@ body {
 	margin-left: 18%;
 	margin-top: 0;
 }
+@media only screen and (max-width: 465px) {
+	.products {
+	margin-left: 15%;
+}
+}
 .clearfix-bonus {
 	clear: both;
 }
@@ -221,11 +226,48 @@ body {
 	margin-bottom: 20px;
 	color: #fff;
 }
-.footer-blocks{
-	margin-left: 15.5%;
-	margin-right: 15.5%;
+.footer-block {
 	background-color: #E8663C;
+	padding: 20px 40px;
+	min-height: 250px;
 }
-.colour-block {
-	background-color: #f3b29e;
+footer {
+	margin-top: 3%;
+}
+.footer-text {
+	font-weight: 100;
+	color: #fff;
+	font-family: 'Arial';
+	font-size: 0.9em;
+	word-wrap: break-word;
+}
+.left-margin {
+	border-right: 10px solid #fff;
+}
+.right-margin {
+	border-left: 10px solid #fff;
+}
+.twitter-name {
+	color: #EAC7C7;
+	font-weight: 100;
+	font-family: 'Arial';
+	font-size: 0.9em;
+}
+.footer-color{
+	background-color: #f3ae9e;
+	min-height: 250px;
+}
+.fa-facebook-square, .fa-twitter-square, .fa-envelope {
+	color: white;
+	font-size: 30px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.icons {
+	margin-left: 1%;
+}
+@media only screen and (max-width: 2560px) {
+	.middle-block {
+	padding-bottom: 50px;
+}
 }
