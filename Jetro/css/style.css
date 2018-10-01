@@ -241,10 +241,10 @@ footer {
 	font-size: 0.9em;
 	word-wrap: break-word;
 }
-.left-margin {
+.right-block {
 	border-right: 10px solid #fff;
 }
-.right-margin {
+.left-block {
 	border-left: 10px solid #fff;
 }
 .twitter-name {
@@ -269,5 +269,48 @@ footer {
 @media only screen and (max-width: 2560px) {
 	.middle-block {
 	padding-bottom: 50px;
+}
+}
+@media only screen and (max-width: 2513px) {
+	.middle-block {
+	padding-bottom: 30px;
+}
+}
+@media only screen and (max-width: 1740px) {
+	.middle-block {
+	padding-bottom: 20px;
+}
+}
+@media only screen and (max-width: 1479px) {
+	.middle-block {
+	padding-bottom: 10px;
+}
+}
+@media only screen and (max-width: 1380px) {
+	.middle-block {
+	height: 300px;
+}
+.left-block {
+	height: 300px;
+}
+.right-block {
+	height: 300px;
+}
+.footer-color {
+	height: 300px;
+}
+}
+@media only screen and (max-width: 1199px) {
+	.middle-block {
+	height: 450px;
+}
+.left-block {
+	height: 450px;
+}
+.right-block {
+	height: 450px;
+}
+.footer-color {
+	height: 450px;
 }
 }
