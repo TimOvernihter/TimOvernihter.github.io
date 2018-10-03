@@ -314,3 +314,16 @@ footer {
 	height: 450px;
 }
 }
+@media only screen and (max-width: 991px) {
+	.middle-block {
+	height: 150px;
+}
+	.left-block {
+	height: 150px;
+}
+	.right-block {
+	height: 150px;
+}
+	.footer-color {
+	height: 150px;
+}
