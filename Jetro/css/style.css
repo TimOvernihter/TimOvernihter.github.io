@@ -229,7 +229,7 @@ body {
 .footer-block {
 	background-color: #E8663C;
 	padding: 20px 40px;
-	min-height: 250px;
+	min-height: 260px;
 }
 footer {
 	margin-top: 3%;
@@ -255,7 +255,7 @@ footer {
 }
 .footer-color{
 	background-color: #f3ae9e;
-	min-height: 250px;
+	min-height: 260px;
 }
 .fa-facebook-square, .fa-twitter-square, .fa-envelope {
 	color: white;
