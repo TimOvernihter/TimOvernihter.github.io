@@ -1,0 +1,292 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	overflow-x: hidden;
+}
+body {
+	font-family: 'BebasNeueRegular'; 
+   font-weight: normal; 
+   font-style: normal;
+   background-size: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+	overflow-x: hidden;
+}
+@media only screen and (min-width: 1440px) {
+	body {
+		 background-image: none;
+		 width: 100%;
+	}
+}
+@media only screen and (min-width: 767px) {
+	.navbar-brand {
+		 margin-top: 1%;
+	}
+}
+.navigation {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 1%;
+}
+.nav {
+	margin-top: 1.5%;
+}
+.nav__item {
+	font-size: 20px;
+	color: #bababa;
+	display: inline;
+}
+.active-link {
+	color: #E8663C;
+	font-size: 20px;
+	font-weight: bold;
+}
+.logo-dark {
+	color: #e9613b;
+}
+.logo-light {
+	color: #f1ad9a;
+}
+.color-toggle {
+	background-color: #E8663C;
+}
+.icon-bar {
+	background-color: #fff;
+}
+.navbar-brand {
+	font-size: 3em;
+	margin-top: 15%;
+	letter-spacing: 2px;
+}
+@media only screen and (max-width: 797px) {
+	.nav__item {
+	font-size: 18px;
+	}
+}
+.clearfix {
+	clear: both;
+}
+#myNavbar {
+	float: none;
+}
+.carousel{
+	height: 130%;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-brand {
+	margin-top: 0%;
+	}
+}
+.slide-image {
+	height: 70%;
+	width: 100%;
+}
+.carousel-caption {
+	opacity: 0.7;
+	background-color: #E8663C;
+	width: 24em;
+	height: 8em;
+	padding: 0;
+	margin-bottom: 13px;
+}
+.slide-text {
+	font-weight: 100;
+	color: #fff;
+	font-family: 'Arial';
+}
+.options {
+	margin-left: 16%;
+	margin-bottom: 7%;
+}
+.block-option {
+	margin-top: 6%;
+	margin-bottom: 35px;
+}
+.option-title {
+	font-size: 1.7em;
+	margin-bottom: 20px;
+	color: #E8663C;
+}
+.option-text {
+	font-weight: 100;
+	color: #000;
+	font-family: 'Arial';
+	font-size: 12px;
+}
+.icon-set {
+	float: left;
+	margin-top: -15px;
+	margin-right: 20px;
+	color: #E8663C;
+}
+.more__button {
+	padding: 5px 15px 5px 15px;
+	background-color: #E8663C;
+	border: none;
+	color: #fff;
+	font-size: 17px;
+	float: left;
+	margin-top: 6%;
+	cursor: pointer;
+}
+.clearfix {
+	clear: both;
+}
+.works-title{
+	float: left;
+	margin-left: 18%;
+	margin-top: -7%;
+}
+@media only screen and (max-width: 679px) {
+	.carousel{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 4%;
+}
+}
+@media only screen and (max-width: 474px) {
+	.carousel-caption {
+		width: 20em;
+		height: 10em;
+		padding: 0;
+		margin-bottom: 13px;
+		margin-left: -5%;
+		font-size: 11px;
+	}
+	.carousel-title{
+		font-size: 16px;
+	}
+}
+.product-image {
+	width: 80%;
+	height: 100%;
+	border: 2px dashed black;
+}
+.clearfix-bonus {
+	clear: both;
+}
+}
+.product-title {
+	font-size: 1.5em;
+	color: #bababa;
+}
+.product-date {
+	color: #E8663C;
+	font-size: 1.1em;
+}
+.footer-title {
+	font-size: 1.7em;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.footer-block {
+	background-color: #E8663C;
+	padding: 20px 40px;
+	min-height: 260px;
+}
+footer {
+	margin-top: 3%;
+}
+.footer-text {
+	font-weight: 100;
+	color: #fff;
+	font-family: 'Arial';
+	font-size: 0.9em;
+	word-wrap: break-word;
+}
+.right-block {
+	border-right: 10px solid #fff;
+}
+.left-block {
+	border-left: 10px solid #fff;
+}
+.twitter-name {
+	color: #EAC7C7;
+	font-weight: 100;
+	font-family: 'Arial';
+	font-size: 0.9em;
+}
+.footer-color{
+	background-color: #f3ae9e;
+	min-height: 260px;
+}
+.fa-facebook-square, .fa-twitter-square, .fa-envelope {
+	color: white;
+	font-size: 30px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.icons {
+	margin-left: 1%;
+}
+@media only screen and (max-width: 2560px) {
+	.middle-block {
+	padding-bottom: 50px;
+}
+}
+@media only screen and (max-width: 2513px) {
+	.middle-block {
+	padding-bottom: 30px;
+}
+}
+@media only screen and (max-width: 1740px) {
+	.middle-block {
+	padding-bottom: 20px;
+}
+}
+@media only screen and (max-width: 1479px) {
+	.middle-block {
+	padding-bottom: 10px;
+}
+}
+@media only screen and (max-width: 1380px) {
+	.middle-block {
+	height: 300px;
+}
+.left-block {
+	height: 300px;
+}
+.right-block {
+	height: 300px;
+}
+.footer-color {
+	height: 300px;
+}
+}
+@media only screen and (max-width: 1199px) {
+	.middle-block {
+	height: 450px;
+}
+.left-block {
+	height: 450px;
+}
+.right-block {
+	height: 450px;
+}
+.footer-color {
+	height: 450px;
+}
+}
+@media only screen and (max-width: 991px) {
+	.middle-block {
+	height: 150px;
+}
+	.left-block {
+	height: 150px;
+}
+	.right-block {
+	height: 150px;
+}
+	.footer-color {
+	height: 70px;
+}
+}
+@media only screen and (min-width: 1200px) {
+.footer-block {
+	height: 300px;
+}
+.footer-color {
+	height: 300px;
+}
