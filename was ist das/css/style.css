@@ -164,13 +164,15 @@ body {
 	height: 100%;
 	border: 2px dashed black;
 }
-.clearfix-bonus {
-	clear: both;
-}
 }
 .product-title {
 	font-size: 1.5em;
 	color: #bababa;
+}
+@media only screen and (max-width: 991px) {
+	.last-clear {
+	clear: both;
+	}
 }
 .product-date {
 	color: #E8663C;
@@ -220,73 +222,4 @@ footer {
 }
 .icons {
 	margin-left: 1%;
-}
-@media only screen and (max-width: 2560px) {
-	.middle-block {
-	padding-bottom: 50px;
-}
-}
-@media only screen and (max-width: 2513px) {
-	.middle-block {
-	padding-bottom: 30px;
-}
-}
-@media only screen and (max-width: 1740px) {
-	.middle-block {
-	padding-bottom: 20px;
-}
-}
-@media only screen and (max-width: 1479px) {
-	.middle-block {
-	padding-bottom: 10px;
-}
-}
-@media only screen and (max-width: 1380px) {
-	.middle-block {
-	height: 300px;
-}
-.left-block {
-	height: 300px;
-}
-.right-block {
-	height: 300px;
-}
-.footer-color {
-	height: 300px;
-}
-}
-@media only screen and (max-width: 1199px) {
-	.middle-block {
-	height: 450px;
-}
-.left-block {
-	height: 450px;
-}
-.right-block {
-	height: 450px;
-}
-.footer-color {
-	height: 450px;
-}
-}
-@media only screen and (max-width: 991px) {
-	.middle-block {
-	height: 150px;
-}
-	.left-block {
-	height: 150px;
-}
-	.right-block {
-	height: 150px;
-}
-	.footer-color {
-	height: 70px;
-}
-}
-@media only screen and (min-width: 1200px) {
-.footer-block {
-	height: 300px;
-}
-.footer-color {
-	height: 300px;
 }

@@ -1,0 +1,148 @@
+@media only screen and (max-width: 2560px) {
+	.middle-block {
+	padding-bottom: 50px;
+}
+}
+@media only screen and (max-width: 2513px) {
+	.middle-block {
+	padding-bottom: 30px;
+}
+}
+@media only screen and (max-width: 1740px) {
+	.middle-block {
+	padding-bottom: 20px;
+}
+}
+@media only screen and (max-width: 1479px) {
+	.middle-block {
+	padding-bottom: 10px;
+}
+}
+@media only screen and (max-width: 1380px) {
+	.middle-block {
+	height: 300px;
+}
+.left-block {
+	height: 300px;
+}
+.right-block {
+	height: 300px;
+}
+.footer-color {
+	height: 300px;
+}
+}
+@media only screen and (max-width: 1199px) {
+	.middle-block {
+	height: 450px;
+}
+.left-block {
+	height: 450px;
+}
+.right-block {
+	height: 450px;
+}
+.footer-color {
+	height: 450px;
+}
+}
+@media only screen and (max-width: 991px) {
+	.middle-block {
+	height: 150px;
+}
+	.left-block {
+	height: 150px;
+	border: none;
+}
+	.right-block {
+	height: 150px;
+	border: none;
+}
+	.footer-color {
+	height: 70px;
+}
+}
+@media only screen and (min-width: 1200px) {
+.footer-block {
+	height: 300px;
+}
+.footer-color {
+	height: 300px;
+}
+}
+@media only screen and (max-width: 767px) {
+	.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+	right: 330%;
+	text-align: center;
+}
+.navigation {
+	background-color: #E8663C;
+	opacity: 0.9;
+}
+.active-link {
+	color: black;
+}
+}
+@media only screen and (max-width: 719px) {
+	.nav>li>a {
+	right: 320%;
+}
+}
+@media only screen and (max-width: 666px) {
+	.nav>li>a {
+	right: 300%;
+}
+}
+@media only screen and (max-width: 634px) {
+	.nav>li>a {
+	right: 290%;
+}
+}
+@media only screen and (max-width: 590px) {
+	.nav>li>a {
+	right: 270%;
+}
+}
+@media only screen and (max-width: 560px) {
+	.nav>li>a {
+	right: 250%;
+}
+}
+@media only screen and (max-width: 530px) {
+	.nav>li>a {
+	right: 230%;
+}
+}
+@media only screen and (max-width: 500px) {
+	.nav>li>a {
+	right: 200%;
+}
+}
+@media only screen and (max-width: 470px) {
+	.nav>li>a {
+	right: 180%;
+}
+}
+@media only screen and (max-width: 420px) {
+	.nav>li>a {
+	right: 170%;
+}
+}
+@media only screen and (max-width: 385px) {
+	.nav>li>a {
+	right: 150%;
+}
+}
+@media only screen and (max-width: 355px) {
+	.nav>li>a {
+	right: 140%;
+}
+}
+@media only screen and (max-width: 340px) {
+	.nav>li>a {
+	right: 130%;
+}
+}
